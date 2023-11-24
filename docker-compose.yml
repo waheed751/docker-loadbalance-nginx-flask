@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app1:
+      image: my-app
+  app2:
+      image: my-app
+  app3: 
+      image: my-app
+  app4: 
+      image: my-app
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - app1
+      - app2
+      - app3
+      - app4
+
