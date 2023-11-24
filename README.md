@@ -31,5 +31,5 @@ Discover the IP address of the Nginx container and open it in the browser to che
 Retrieve the Nginx container ID and then use `docker inspect` to pinpoint the container's IP address. By refreshing the Nginx IP in the browser multiple times, you will observe varying IP addresses being displayed. You can also use `curl` to test the application!
 
 ## Loom Video
-[![Loom Video](https://cdn.loom.com/sessions/thumbnails/c464b64f81e848ea8c39c4199846b6bc-2fd2f6db-d709-4c73-a691-e6a4f65b2c09)](https://www.loom.com/share/c464b64f81e848ea8c39c4199846b6bc?sid=2fd2f6db-d709-4c73-a691-e6a4f65b2c09)
-
+Loom video for step-by-step instructions on running and testing the application with `curl`. The video provides a visual guide that demonstrates the necessary processes.
+[![Loom Video](https://cdn.loom.com/sessions/thumbnails/c464b64f81e848ea8c39c4199846b6bc-with-play.gif)](https://www.loom.com/share/c464b64f81e848ea8c39c4199846b6bc?sid=2fd2f6db-d709-4c73-a691-e6a4f65b2c09)
